@@ -12,3 +12,53 @@
         background: #2F303A;
         color: white;
       }
+      h1{
+        font-family:'Raleway', serif;
+         font-weight: 700;
+        font-size: 26px;
+        line-height: 100%;
+      }
+      .stydio{
+      color:#2196F3;
+      font-family: 'Roboto', serif;
+      }
+      .up{
+        color: black;
+      }
+      .web{
+        font-family:'Raleway', serif;
+      }
+    section{
+        font-family: 'Roboto', serif;
+    }
+    .center{
+        text-align: center;
+    }
+    ul li{
+        display: inline;
+        margin-right: 10px;
+    }
+    .div{
+        text-align:justify;
+        display: inline-block;                
+        width: 200px;              
+        text-align: center;  
+    }
+    .img{
+        display: inline-block;                
+        width: 200px;
+    }
+    .title3{
+        text-align: center;
+    }
+    .teem{
+        text-align: center;
+    }
+    .teeem{
+       display: inline-block;                
+        width: 200px;              
+        text-align: center;  
+    }
+    .gray{
+        color: #757575;
+    }
