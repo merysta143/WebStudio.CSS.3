@@ -1,64 +1,207 @@
-        .background {
-        background: #2F303A;
-         color: white;
-        width: 696px;
-        height: 120px;
-      }
-      .button{
-       background: #2196F3;
-       color: white;
-      }
-      footer{
-        background: #2F303A;
-        color: white;
-      }
-      h1{
-        font-family:'Raleway', serif;
-         font-weight: 700;
-        font-size: 26px;
-        line-height: 100%;
-      }
-      .stydio{
-      color:#2196F3;
-      font-family: 'Roboto', serif;
-      }
-      .up{
-        color: black;
-      }
-      .web{
-        font-family:'Raleway', serif;
-      }
-    section{
-        font-family: 'Roboto', serif;
-    }
-    .center{
-        text-align: center;
-    }
-    ul li{
-        display: inline;
-        margin-right: 10px;
-    }
-    .div{
-        text-align:justify;
-        display: inline-block;                
-        width: 200px;              
-        text-align: center;  
-    }
-    .img{
-        display: inline-block;                
-        width: 200px;
-    }
-    .title3{
-        text-align: center;
-    }
-    .teem{
-        text-align: center;
-    }
-    .teeem{
-       display: inline-block;                
-        width: 200px;              
-        text-align: center;  
-    }
-    .gray{
-        color: #757575;
-    }
+ body{
+  font-family:Roboto;
+}
+
+header {
+  background:#FFFFFF;
+  padding: 20px 0;
+}
+
+.header {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  color:#2196F3;
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+.header li {
+  color: #FFFFFF;
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header a.header-blue {
+  color: #2196F3;
+}
+
+.header a.header-mail {
+  color: #2196F3;
+  margin-left: 20px;
+}
+
+.header a.header-tell {
+  color: #757575;
+  margin-left: 10px;
+}
+
+.title {
+  background-color:#2F303A;
+  color: white;
+  text-align: center;
+  padding: 130px 20px;
+}
+
+.title h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.title button {
+  background-color: #2196f3;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.info section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+}
+
+.info div {
+  flex: 1 1 220px;
+  max-width: 260px;
+}
+
+.info strong {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.info-text {
+  color: #757575;
+  font-size: 14px;
+}
+
+.photos {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.photos section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.photos h2 {
+  margin-bottom: 40px;
+  font-size: 24px;
+  color: #111;
+}
+
+
+.photos img {
+  width: 320px;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display:inline;
+}
+
+  .photos .photo-computer,
+  .photos .photo-phone,
+  .photos .photo-color {
+    flex-wrap: wrap;
+  }
+
+
+.teem {
+  padding: 80px 0;
+  text-align: center;
+  display: flex;
+}
+
+.teem section {
+  margin: 0 auto;
+}
+
+.teem h2 {
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+
+.teem article {
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 260px;
+  padding: 20px;
+}
+
+
+.teem img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.teem h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.teem p {
+  color: #757575;
+  font-size: 14px;
+}
+
+footer {
+  background-color:#2F303A;
+  color: #FFFFFF;
+  padding: 40px 5%;
+  text-align: left;
+}
+
+footer h2 {
+  color:#2196F3;
+  margin-bottom: 10px;
+}
+
+footer address {
+  font-style: normal;
+  color: white;
+  line-height: 1.6;
+}
+
+footer a {
+  color:#FFFFFF99;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
